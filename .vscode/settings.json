@@ -1,0 +1,24 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "./server/Cargo.toml"
+  ],
+  "rust-analyzer.check.command": "clippy",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+  "sqltools.connections": [
+    {
+      "name": "MusicBE SQLite",
+      "driver": "SQLite",
+      "database": "/Users/admin/Projects/MusicBE/database/music.db"
+    }
+  ],
+  "sqltools.useNodeRuntime": true,
+  "rust-analyzer.semanticHighlighting.strings.enable": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  }
+}
